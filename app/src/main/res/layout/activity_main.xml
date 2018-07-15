@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ace5ee"
     android:orientation="vertical">
-    <!--tools:context="index1.developer.acadview.com.illnessdetectorapp.HomeActivity">-->
 
     <Button
         android:id="@+id/button2"
@@ -14,16 +14,15 @@
         android:layout_height="65dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="check by Symptos"
+        android:text="CHECK BY SYMPTOMS"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -31,14 +30,13 @@
         android:layout_height="65dp"
         android:layout_marginBottom="169dp"
         android:layout_marginTop="124dp"
-        android:text="check by disease"
+        android:text="CHECK BY DISEASE"
+        android:textStyle="bold"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintVertical_bias="0.09" />
-    <!--android:layout_marginEnd="48dp"-->
-    <!--android:layout_marginStart="62dp"-->
-
 
 </android.support.constraint.ConstraintLayout>
